@@ -12,6 +12,6 @@ mkdir build
 cd build  
 cmake -DLLVM_ENABLE_PROJECTS=clang -G "Visual Studio 15 2017" -A Win32 Thost=x64 ..\llvm-8.0.0  
   
-To build for 64 bits, you must type Thost=x64 instead of Win32.
+To build for 64 bits, you must type x64 instead of Win32.
 
 Then, you can find the visual studio solution file in build folder.
